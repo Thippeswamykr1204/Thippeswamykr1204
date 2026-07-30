@@ -1,0 +1,62 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2027">
+        <animate attributeName="stop-color" values="#0F2027;#2C5364;#00c6ff;#0F2027" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#2C5364">
+        <animate attributeName="stop-color" values="#2C5364;#00c6ff;#0F2027;#2C5364" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00c6ff">
+        <animate attributeName="stop-color" values="#00c6ff;#0F2027;#2C5364;#00c6ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg)"/>
+
+  <!-- floating code particles -->
+  <g fill="#ffffff" opacity="0.12" font-family="Fira Code, monospace" font-size="20">
+    <text x="60" y="40">&lt;/&gt;</text>
+    <text x="1080" y="60">{ }</text>
+    <text x="140" y="220">const</text>
+    <text x="950" y="210">=&gt;</text>
+    <text x="1000" y="130">npm run</text>
+    <text x="30" y="140">async</text>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -10; 0 0" dur="6s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- animated circuit lines -->
+  <path d="M 0 230 Q 300 200 600 230 T 1200 230" stroke="#ffffff" stroke-opacity="0.25" stroke-width="2" fill="none">
+    <animate attributeName="d"
+      values="M 0 230 Q 300 200 600 230 T 1200 230;
+               M 0 230 Q 300 250 600 230 T 1200 230;
+               M 0 230 Q 300 200 600 230 T 1200 230"
+      dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- main title -->
+  <text x="600" y="120" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff" filter="url(#glow)">
+    THIPPESWAMY K R
+    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+  </text>
+
+  <!-- subtitle -->
+  <text x="600" y="165" text-anchor="middle" font-family="Fira Code, monospace" font-size="22" fill="#8be9fd">
+    Full-Stack Developer · MERN / Next.js
+    <animate attributeName="opacity" values="0;0;1" dur="2s" fill="freeze"/>
+  </text>
+
+  <!-- animated underline -->
+  <rect x="450" y="185" width="0" height="3" fill="#00c6ff">
+    <animate attributeName="width" from="0" to="300" dur="1.5s" begin="1.5s" fill="freeze"/>
+    <animate attributeName="x" from="600" to="450" dur="1.5s" begin="1.5s" fill="freeze"/>
+  </rect>
+</svg>
