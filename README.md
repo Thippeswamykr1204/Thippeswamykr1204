@@ -1,89 +1,160 @@
 <div align="center">
 
-# Hi, I'm Thippeswamy 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:00c6ff&height=220&section=header&text=Thippeswamy%20K%20R&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20MERN%20%2F%20Next.js&descAlignY=55&descSize=20" width="100%"/>
 
-### Full Stack Developer · MERN / Next.js / TypeScript
+<a href="https://thippeswamykr1204.github.io/Portfolio">
+  <img src="https://img.shields.io/badge/PORTFOLIO-Visit-00c6ff?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+<a href="mailto:kollithippeswamy1204@gmail.com">
+  <img src="https://img.shields.io/badge/EMAIL-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://linkedin.com/in/thippeswamy-kr">
+  <img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 
-I build production-quality web applications end to end — from schema design and API architecture to polished, accessible UI. Fresh AI & ML graduate who leans full-stack, ships fast, and hardens what I ship.
+<br/><br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://thippeswamykr1204.github.io/Portfolio)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thippeswamy-kr-a57b30298)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kollithippeswamy1204@gmail.com)
+<img src="https://readme-typing-svg.demolab.com/?lines=Shipping+production-grade+MERN+%2F+Next.js+apps;Backend-heavy+full-stack+engineer;Reliability+under+real-world+failure+modes;Currently+open+to+SDE+%2F+Full-Stack+roles&font=Fira+Code&center=true&width=650&height=45&color=00C6FF&vCenter=true&size=22&pause=1200" />
 
 </div>
 
 ---
 
-### 🧭 About Me
+### 👋 About Me
 
-- 🎓 B.E. in Artificial Intelligence & Machine Learning, Sri Sairam College of Engineering (VTU) — Class of 2026
-- 💼 Looking for **SDE / Full Stack Developer** roles as a fresher
-- 🛠️ Core stack: **MongoDB · Express · React · Node.js · TypeScript · Next.js · AWS · Docker · Socket.io**
-- 🧠 Engineering philosophy: learn by building, ship fast, iterate toward production quality — auth, validation, tests, and deployment included, not left out
-- 📍 Based in Bengaluru, India
+```yaml
+role: Full-Stack Developer (Fresher)
+focus: React.js · Next.js · Node.js · MongoDB / PostgreSQL
+philosophy: "Ship end-to-end — schema design → REST APIs → auth → cloud deploy → tests"
+currently_building: Real-time systems, AI-integrated pipelines, resilient backend architecture
+location: Bengaluru, Karnataka, India
+open_to: SDE / Full-Stack Developer roles
+```
+
+I'm a Full-Stack Developer specializing in **React.js, Next.js, Node.js, and MongoDB/PostgreSQL**, focused on shipping AI-integrated, production-grade web apps — not just happy-path demos, but systems built to survive real-world failure: cache outages, malformed data, race conditions, and scale.
+
+---
+
+### 🛠️ Tech Stack
+
+<div align="center">
+
+**Languages**
+<br/>
+<img src="https://skillicons.dev/icons?i=js,ts,py&theme=dark" />
+
+**Frontend**
+<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css&theme=dark" />
+
+**Backend**
+<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,django&theme=dark" />
+
+**Databases**
+<br/>
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,prisma&theme=dark" />
+
+**Cloud, DevOps & Tools**
+<br/>
+<img src="https://skillicons.dev/icons?i=aws,docker,vercel,git,github,postman&theme=dark" />
+
+**Testing**
+<br/>
+<img src="https://skillicons.dev/icons?i=jest,vitest&theme=dark" />
+
+</div>
 
 ---
 
 ### 🚀 Featured Projects
 
-| Project | What it does | Stack |
-|---|---|---|
-| **[Yatrik](https://github.com/Thippeswamykr1204/Yatrick)** | AI-powered travel planner generating personalized, day-by-day itineraries with INR-based pricing for Indian travelers. Built across 17 structured phases as my primary full-stack assessment project. | Next.js 15, TypeScript, Express, MongoDB Atlas, Gemini 2.5 Flash · Vercel/Railway |
-| **[FinSight](https://github.com/Thippeswamykr1204/FinSight)** | Full-stack personal finance dashboard/tracker built during my SuprMentr Technologies internship. | Next.js, Prisma, PostgreSQL, Redis, TypeScript · [Live](https://finsight-five-delta.vercel.app) |
-| **PulseQ** | Real-time hospital queue management system built for a competitive internship assessment. JWT auth, Socket.io live updates, Zod validation, MongoDB transactions, Recharts analytics. | MERN, Socket.io, Jest/Supertest · Render/Vercel/MongoDB Atlas |
-| **ImportCSV Pro** | AI-powered CSV importer with Gemini integration; actively hardened with 63+ automated tests and security fixes. | Next.js, Gemini API |
+<table>
+<tr>
+<td width="50%" valign="top">
 
+**🧭 [Yatrik — AI Travel Planner](https://github.com/Thippeswamykr1204/Yatrick)**
+`Next.js 15` `TypeScript` `Gemini API` `MongoDB Atlas`
+
+Full-stack AI travel planner — 6-screen user flow, 5 Gemini-powered endpoints including **Smart Day Regeneration** (rebuild a single itinerary day in isolation). All routes secured with JWT + bcrypt + ownership-based authorization.
+
+🔗 [Live Demo](https://yatrick.vercel.app)
+
+</td>
+<td width="50%" valign="top">
+
+**💰 [FinSight — Finance Tracker](https://github.com/Thippeswamykr1204/FinSight)**
+`Next.js 14` `Prisma` `PostgreSQL` `Redis`
+
+Dashboard-driven finance app — 9 REST endpoints, composite-key duplicate detection on CSV ingest, and a **3-tier Redis TTL cache** that degrades gracefully under outages.
+
+🔗 [Live Demo](https://finsight-five-delta.vercel.app)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🏥 [PulseQ — Real-Time Queue System](https://github.com/Thippeswamykr1204/PluseQ)**
+`MERN` `Socket.io` `JWT` `Jest`
+
+Real-time hospital queue manager — 18 REST endpoints, **Socket.io room-based events** for live token updates, race-condition-safe atomic MongoDB operations, validated by a 21-test Jest/Supertest suite.
+
+🔗 [Live Demo](https://pluse-q.vercel.app)
+
+</td>
+<td width="50%" valign="top">
+
+**📊 [ImportCSV Pro — AI CSV Importer](https://github.com/Thippeswamykr1204/ImportCSV-Pro)**
+`Next.js` `Zod` `Gemini API` `SSE`
+
+Enterprise CSV importer mapping 5 CRM/ad platforms into a fixed schema — JSON repair pipeline, exponential-backoff retries, 4-way parallel batching, validated by a 63-test Vitest suite.
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 🧰 Tech Stack
+### 💼 Experience
 
-**Languages & Runtime**
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-
-**Frontend**
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
-
-**Backend & Data**
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
-
-**Infra & Tooling**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+**Full-Stack Web Development Intern** · SuprMentr Technologies Pvt Ltd · *Feb 2026 – May 2026*
+Shipped responsive full-stack features in sprint-based Agile cycles; owned end-to-end development of FinSight from schema design through deployment.
 
 ---
 
-### 📊 GitHub Stats
+### 📈 GitHub Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Thippeswamykr1204&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thippeswamykr1204&layout=compact&theme=tokyonight&hide_border=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=thippeswamykr1204&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thippeswamykr1204&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Thippeswamykr1204&theme=tokyonight&hide_border=true" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=thippeswamykr1204&theme=tokyonight&hide_border=true" />
+</div>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=thippeswamykr1204&theme=tokyo-night&hide_border=true" />
 </div>
 
 ---
 
-### 📫 Let's Connect
+### 🎓 Education
 
-I'm actively interviewing for full-stack / SDE roles — happy to walk through architecture decisions, trade-offs, or live-debug any of the projects above.
+**B.E. — Artificial Intelligence & Machine Learning**
+Sri Sairam College of Engineering, Anekal (VTU) · CGPA 7.81/10 · 2022–2026
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-thippeswamykr1204.github.io-000000?style=flat-square)](https://thippeswamykr1204.github.io/Portfolio)
-[![Email](https://img.shields.io/badge/kollithippeswamy1204@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kollithippeswamy1204@gmail.com)
+---
+
+<div align="center">
+
+### 📫 Let's Build Something
+
+<a href="mailto:kollithippeswamy1204@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://linkedin.com/in/thippeswamy-kr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://thippeswamykr1204.github.io/Portfolio"><img src="https://img.shields.io/badge/Portfolio-00c6ff?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0F2027&height=100&section=footer" width="100%"/>
 
 </div>
