@@ -32,9 +32,7 @@ I build production-quality web applications end to end — from schema design an
 | **[FinSight](https://github.com/Thippeswamykr1204/FinSight)** | Full-stack personal finance dashboard/tracker built during my SuprMentr Technologies internship. | Next.js, Prisma, PostgreSQL, Redis, TypeScript · [Live](https://finsight-five-delta.vercel.app) |
 | **PulseQ** | Real-time hospital queue management system built for a competitive internship assessment. JWT auth, Socket.io live updates, Zod validation, MongoDB transactions, Recharts analytics. | MERN, Socket.io, Jest/Supertest · Render/Vercel/MongoDB Atlas |
 | **ImportCSV Pro** | AI-powered CSV importer with Gemini integration; actively hardened with 63+ automated tests and security fixes. | Next.js, Gemini API |
-| **[SuprApp (SuperVerse)](https://github.com/Thippeswamykr1204/SuprApp)** | Multi-widget "Super App" dashboard (Weather, News, Movies, Notes) with a server-side proxy layer for third-party API CORS handling. | Next.js, React, Zustand |
-| **UserHub** | High-polish React user management dashboard — command palette, drag-and-drop columns, shimmer skeleton loaders, dark SaaS aesthetic. | React, Vite, Zustand, Axios, Vitest |
-| **[Library Management System](https://github.com/Thippeswamykr1204/Library_managment)** | REST API with role-based access for librarians/members and atomic borrow/return operations. | Node.js, Express, MongoDB, Jest/Supertest (58+ tests) |
+
 
 ---
 
