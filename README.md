@@ -19,7 +19,7 @@
 - 💻 Full Stack Developer — React, Next.js, Node.js, PostgreSQL
 - 🏗️ Shipped 4 production-style full-stack apps with test coverage, auth, and cloud deployment
 - 📍 Bengaluru, India
-- 💼 Open to Full Stack Developer & Software Engineer roles
+- 💼 Open to Full Stack Developer & Software Engineer opportunities
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
@@ -147,9 +147,8 @@ Enterprise CSV importer mapping 5 CRM/ad platforms into a fixed schema — JSON 
 
 ### 🎓 Education
 
-**B.E. — Artificial Intelligence & Machine Learning**
-Sri Sairam College of Engineering, Anekal (VTU)
-CGPA 7.81/10 · 2022 – 2026
+**B.E. — Artificial Intelligence & Machine Learning**  · 2022 – 2026 </br>
+Sri Sairam College of Engineering, Anekal (VTU) · CGPA 7.81/10
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
