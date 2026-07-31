@@ -1,17 +1,19 @@
 <div align="center">
 
 <img src="./assets/banner.svg?v=3" width="100%"/>
-<img src="./assets/divider.svg" width="100%"/>
-
-<p align="center" style="margin-top:0;">
-  <a href="https://thippeswamykr1204.github.io/Portfolio">Portfolio</a> ·
-  <a href="mailto:kollithippeswamy1204@gmail.com">Email</a> ·
-  <a href="https://linkedin.com/in/thippeswamy-kr">LinkedIn</a>
-</p>
-
+</br>
+</br>
 <img src="https://readme-typing-svg.demolab.com/?lines=B.E.+AI%2FML+Graduate+%C2%B7+2026;Shipping+production-grade+MERN+%2F+Next.js+apps;Currently+building%3A+real-time+%26+AI-integrated+systems;Open+to+SDE+%2F+Full-Stack+Developer+roles&font=Fira+Code&center=true&width=680&height=45&color=3B82F6&vCenter=true&size=21&pause=1200" />
 
+<p align="center" style="margin-top:0;">
+  <a href="mailto:kollithippeswamy1204@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/thippeswamy-kr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://thippeswamykr1204.github.io/Portfolio"><img src="https://img.shields.io/badge/Portfolio-00c6ff?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+</p>
+
 </div>
+
+<img src="./assets/divider.svg" width="100%"/>
 
 ### 👨‍💻 About Me
 
@@ -118,7 +120,7 @@ Enterprise CSV importer mapping 5 CRM/ad platforms into a fixed schema — JSON 
 
 ### 💼 Experience
 
-**Full-Stack Web Development Intern** · SuprMentr Technologies Pvt Ltd
+**Full-Stack Web Development Intern** • SuprMentr Technologies Pvt Ltd •
 *Feb 2026 – May 2026*
 
 - Owned end-to-end development of FinSight — from schema design to production deployment
@@ -147,8 +149,9 @@ Enterprise CSV importer mapping 5 CRM/ad platforms into a fixed schema — JSON 
 
 ### 🎓 Education
 
-**B.E. — Artificial Intelligence & Machine Learning**  · 2022 – 2026 </br>
-Sri Sairam College of Engineering, Anekal (VTU) · CGPA 7.81/10
+**B.E. — Artificial Intelligence & Machine Learning** • 2022 – 2026
+
+Sri Sairam College of Engineering, Anekal (VTU)
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
