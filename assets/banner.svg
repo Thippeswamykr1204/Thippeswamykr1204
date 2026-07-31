@@ -1,62 +1,89 @@
-<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F2027">
-        <animate attributeName="stop-color" values="#0F2027;#2C5364;#00c6ff;#0F2027" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" stop-color="#2C5364">
-        <animate attributeName="stop-color" values="#2C5364;#00c6ff;#0F2027;#2C5364" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#00c6ff">
-        <animate attributeName="stop-color" values="#00c6ff;#0F2027;#2C5364;#00c6ff" dur="8s" repeatCount="indefinite"/>
-      </stop>
+      <stop offset="0%" stop-color="#050a16"/>
+      <stop offset="50%" stop-color="#060c1c"/>
+      <stop offset="100%" stop-color="#040810"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <radialGradient id="glow" cx="15%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1200" height="300" rx="18"/></clipPath>
   </defs>
 
-  <rect width="1200" height="260" fill="url(#bg)"/>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#glow)"/>
 
-  <!-- floating code particles -->
-  <g fill="#ffffff" opacity="0.12" font-family="Fira Code, monospace" font-size="20">
-    <text x="60" y="40">&lt;/&gt;</text>
-    <text x="1080" y="60">{ }</text>
-    <text x="140" y="220">const</text>
-    <text x="950" y="210">=&gt;</text>
-    <text x="1000" y="130">npm run</text>
-    <text x="30" y="140">async</text>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -10; 0 0" dur="6s" repeatCount="indefinite"/>
+    <!-- animated flowing wave lines, bottom-right -->
+    <g stroke-width="1.4" fill="none" opacity="0.75">
+      <path d="M650,260 C820,180 950,240 1080,150 C1150,105 1180,120 1220,90" stroke="url(#lineGrad)">
+        <animate attributeName="d" dur="6s" repeatCount="indefinite"
+          values="M650,260 C820,180 950,240 1080,150 C1150,105 1180,120 1220,90;
+                  M650,255 C830,200 940,210 1080,170 C1150,130 1180,100 1220,80;
+                  M650,260 C820,180 950,240 1080,150 C1150,105 1180,120 1220,90"/>
+      </path>
+      <path d="M680,275 C850,205 970,255 1090,175 C1155,130 1180,140 1220,115" stroke="url(#lineGrad)">
+        <animate attributeName="d" dur="7s" repeatCount="indefinite"
+          values="M680,275 C850,205 970,255 1090,175 C1155,130 1180,140 1220,115;
+                  M680,270 C860,220 960,225 1090,190 C1155,150 1180,120 1220,105;
+                  M680,275 C850,205 970,255 1090,175 C1155,130 1180,140 1220,115"/>
+      </path>
+      <path d="M700,290 C880,225 990,270 1100,200 C1160,160 1185,165 1220,145" stroke="url(#lineGrad)">
+        <animate attributeName="d" dur="8s" repeatCount="indefinite"
+          values="M700,290 C880,225 990,270 1100,200 C1160,160 1185,165 1220,145;
+                  M700,285 C890,240 980,245 1100,215 C1160,180 1185,150 1220,135;
+                  M700,290 C880,225 990,270 1100,200 C1160,160 1185,165 1220,145"/>
+      </path>
+      <path d="M720,300 C900,245 1010,285 1110,225 C1165,190 1190,190 1220,170" stroke="url(#lineGrad)">
+        <animate attributeName="d" dur="9s" repeatCount="indefinite"
+          values="M720,300 C900,245 1010,285 1110,225 C1165,190 1190,190 1220,170;
+                  M720,296 C910,258 1000,265 1110,238 C1165,205 1190,175 1220,162;
+                  M720,300 C900,245 1010,285 1110,225 C1165,190 1190,190 1220,170"/>
+      </path>
+      <path d="M740,300 C920,262 1030,298 1120,248 C1170,215 1195,212 1220,195" stroke="url(#lineGrad)">
+        <animate attributeName="d" dur="6.5s" repeatCount="indefinite"
+          values="M740,300 C920,262 1030,298 1120,248 C1170,215 1195,212 1220,195;
+                  M740,298 C930,272 1020,280 1120,258 C1170,228 1195,200 1220,188;
+                  M740,300 C920,262 1030,298 1120,248 C1170,215 1195,212 1220,195"/>
+      </path>
+    </g>
+
+    <!-- soft pulsing dot along one line -->
+    <circle r="3" fill="#60a5fa">
+      <animateMotion dur="6s" repeatCount="indefinite"
+        path="M650,260 C820,180 950,240 1080,150 C1150,105 1180,120 1220,90"/>
+      <animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- text block -->
+    <text x="80" y="150" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="900" letter-spacing="2" fill="url(#nameGrad)">
+      THIPPESWAMY <tspan fill="#2563eb">K R</tspan>
+    </text>
+
+    <line x1="80" y1="178" x2="620" y2="178" stroke="#2563eb" stroke-width="2" opacity="0.8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+    </line>
+
+    <text x="80" y="215" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="6" fill="#cbd5e1">
+      FULL STACK DEVELOPER
+    </text>
+
+    <text x="80" y="255" font-family="Consolas, monospace" font-size="17" fill="#93c5fd">
+      &lt;/&gt;
+    </text>
+    <text x="115" y="255" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#e2e8f0">
+      Code. Build. Deploy. <tspan fill="#3b82f6">Repeat.</tspan>
+    </text>
   </g>
-
-  <!-- animated circuit lines -->
-  <path d="M 0 230 Q 300 200 600 230 T 1200 230" stroke="#ffffff" stroke-opacity="0.25" stroke-width="2" fill="none">
-    <animate attributeName="d"
-      values="M 0 230 Q 300 200 600 230 T 1200 230;
-               M 0 230 Q 300 250 600 230 T 1200 230;
-               M 0 230 Q 300 200 600 230 T 1200 230"
-      dur="5s" repeatCount="indefinite"/>
-  </path>
-
-  <!-- main title -->
-  <text x="600" y="120" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff" filter="url(#glow)">
-    THIPPESWAMY K R
-    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
-  </text>
-
-  <!-- subtitle -->
-  <text x="600" y="165" text-anchor="middle" font-family="Fira Code, monospace" font-size="22" fill="#8be9fd">
-    Full-Stack Developer · MERN / Next.js
-    <animate attributeName="opacity" values="0;0;1" dur="2s" fill="freeze"/>
-  </text>
-
-  <!-- animated underline -->
-  <rect x="450" y="185" width="0" height="3" fill="#00c6ff">
-    <animate attributeName="width" from="0" to="300" dur="1.5s" begin="1.5s" fill="freeze"/>
-    <animate attributeName="x" from="600" to="450" dur="1.5s" begin="1.5s" fill="freeze"/>
-  </rect>
 </svg>
