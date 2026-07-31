@@ -14,8 +14,6 @@
   <img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-<br/><br/>
-
 <img src="https://readme-typing-svg.demolab.com/?lines=B.E.+AI%2FML+Graduate+%C2%B7+2026;Shipping+production-grade+MERN+%2F+Next.js+apps;Backend-heavy+full-stack+engineer;Currently+building%3A+real-time+%26+AI-integrated+systems;Open+to+SDE+%2F+Full-Stack+Developer+roles&font=Fira+Code&center=true&width=680&height=45&color=00C6FF&vCenter=true&size=21&pause=1200" />
 
 <img src="./assets/divider.svg" width="100%"/>
