@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%"/>
+<img src="./assets/banner.svg?v=3" width="100%"/>
 <img src="./assets/divider.svg" width="100%"/>
 
 <p align="center" style="margin-top:0;">
@@ -9,7 +9,7 @@
   <a href="https://linkedin.com/in/thippeswamy-kr">LinkedIn</a>
 </p>
 
-<img src="https://readme-typing-svg.demolab.com/?lines=B.E.+AI%2FML+Graduate+%C2%B7+2026;Shipping+production-grade+MERN+%2F+Next.js+apps;Currently+building%3A+real-time+%26+AI-integrated+systems;Open+to+SDE+%2F+Full-Stack+Developer+roles&font=Fira+Code&center=true&width=680&height=45&color=00C6FF&vCenter=true&size=21&pause=1200" />
+<img src="https://readme-typing-svg.demolab.com/?lines=B.E.+AI%2FML+Graduate+%C2%B7+2026;Shipping+production-grade+MERN+%2F+Next.js+apps;Currently+building%3A+real-time+%26+AI-integrated+systems;Open+to+SDE+%2F+Full-Stack+Developer+roles&font=Fira+Code&center=true&width=680&height=45&color=3B82F6&vCenter=true&size=21&pause=1200" />
 
 </div>
 
