@@ -1,31 +1,33 @@
 <div align="center">
 
 <img src="./assets/banner.svg" width="100%"/>
-
-<a href="https://thippeswamykr1204.github.io/Portfolio">
-  <img src="https://img.shields.io/badge/PORTFOLIO-Visit-00c6ff?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-<a href="mailto:kollithippeswamy1204@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://linkedin.com/in/thippeswamy-kr">
-  <img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<img src="https://readme-typing-svg.demolab.com/?lines=B.E.+AI%2FML+Graduate+%C2%B7+2026;Shipping+production-grade+MERN+%2F+Next.js+apps;Backend-heavy+full-stack+engineer;Currently+building%3A+real-time+%26+AI-integrated+systems;Open+to+SDE+%2F+Full-Stack+Developer+roles&font=Fira+Code&center=true&width=680&height=45&color=00C6FF&vCenter=true&size=21&pause=1200" />
-
 <img src="./assets/divider.svg" width="100%"/>
+
+<p align="center" style="margin-top:0;">
+  <a href="https://thippeswamykr1204.github.io/Portfolio">Portfolio</a> ·
+  <a href="mailto:kollithippeswamy1204@gmail.com">Email</a> ·
+  <a href="https://linkedin.com/in/thippeswamy-kr">LinkedIn</a>
+</p>
+
+<img src="https://readme-typing-svg.demolab.com/?lines=B.E.+AI%2FML+Graduate+%C2%B7+2026;Shipping+production-grade+MERN+%2F+Next.js+apps;Currently+building%3A+real-time+%26+AI-integrated+systems;Open+to+SDE+%2F+Full-Stack+Developer+roles&font=Fira+Code&center=true&width=680&height=45&color=00C6FF&vCenter=true&size=21&pause=1200" />
 
 </div>
 
 ### 👨‍💻 About Me
 
 - 🎓 B.E. in Artificial Intelligence & Machine Learning (2026)
-- 💻 Full Stack Developer focused on React, Next.js, Node.js and PostgreSQL
-- 🚀 Passionate about building reliable, end-to-end web applications
-- 🌱 Currently learning Docker, AWS and System Design
+- 💻 Full Stack Developer — React, Next.js, Node.js, PostgreSQL
+- 🏗️ Shipped 4 production-style full-stack apps with test coverage, auth, and cloud deployment
 - 📍 Bengaluru, India
-- 💼 Open to Full Stack Developer & Software Engineer opportunities
+- 💼 Open to Full Stack Developer & Software Engineer roles
+
+<div align="center"><img src="./assets/divider.svg" width="100%"/></div>
+
+### 🚀 Currently Building
+
+- Working through a 60-day structured MERN/DSA interview prep roadmap
+- Deepening System Design and Data Structures & Algorithms
+- Exploring Docker, AWS, and deployment workflows
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
@@ -158,3 +160,5 @@ CGPA 7.81/10 · 2022 – 2026
 <a href="mailto:kollithippeswamy1204@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://linkedin.com/in/thippeswamy-kr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://thippeswamykr1204.github.io/Portfolio"><img src="https://img.shields.io/badge/Portfolio-00c6ff?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+
+</div>
