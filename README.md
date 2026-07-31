@@ -129,15 +129,11 @@ Enterprise CSV importer mapping 5 CRM/ad platforms into a fixed schema — JSON 
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
-### 📈 GitHub Activity
+### 📈 GitHub Insights
 
 <div align="center">
-  <img
-  height="165"
-  src="https://github-readme-stats-sigma-five.vercel.app/api?username=Thippeswamykr1204&show_icons=true&theme=tokyonight&hide_border=true"
-/>
-
-  <img height="170" src="https://streak-stats.demolab.com?user=Thippeswamykr1204&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Thippeswamykr1204&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img width="50%" src="https://streak-stats.demolab.com?user=Thippeswamykr1204&theme=tokyonight&hide_border=true" />
 </div>
 
 <br>
