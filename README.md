@@ -1,7 +1,6 @@
 <div align="center">
 
 <img src="./assets/banner.svg" width="100%"/>
-<img src="./assets/divider.svg" width="100%"/>
 
 <p align="center" style="margin-top:0;">
   <a href="https://thippeswamykr1204.github.io/Portfolio">Portfolio</a> ·
