@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%"/>
+<img src="./assets/banner.png" width="100%"/>
 
 <br/>
 
@@ -16,24 +16,20 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com/?lines=Final-year+AI%2FML+student+%C2%B7+2026;Shipping+production-grade+MERN+%2F+Next.js+apps;Backend-heavy+full-stack+engineer;Currently+building%3A+real-time+%26+AI-integrated+systems;Open+to+SDE+%2F+Full-Stack+Developer+roles&font=Fira+Code&center=true&width=680&height=45&color=00C6FF&vCenter=true&size=21&pause=1200" />
+<img src="https://readme-typing-svg.demolab.com/?lines=B.E.+AI%2FML+Graduate+%C2%B7+2026;Shipping+production-grade+MERN+%2F+Next.js+apps;Backend-heavy+full-stack+engineer;Currently+building%3A+real-time+%26+AI-integrated+systems;Open+to+SDE+%2F+Full-Stack+Developer+roles&font=Fira+Code&center=true&width=680&height=45&color=00C6FF&vCenter=true&size=21&pause=1200" />
 
 <img src="./assets/divider.svg" width="100%"/>
 
 </div>
 
-### 👋 About Me
+### 👨‍💻 About Me
 
-```yaml
-role: Full-Stack Developer (Fresher)
-focus: React.js · Next.js · Node.js · MongoDB / PostgreSQL
-philosophy: "Ship end-to-end — schema design → REST APIs → auth → cloud deploy → tests"
-currently_building: Real-time systems, AI-integrated pipelines, resilient backend architecture
-location: Bengaluru, Karnataka, India
-open_to: SDE / Full-Stack Developer roles
-```
-
-I'm a Full-Stack Developer specializing in **React.js, Next.js, Node.js, and MongoDB/PostgreSQL**, focused on shipping AI-integrated, production-grade web apps — not just happy-path demos, but systems built to survive real-world failure: cache outages, malformed data, race conditions, and scale.
+- 🎓 B.E. in Artificial Intelligence & Machine Learning (2026)
+- 💻 Full Stack Developer focused on React, Next.js, Node.js and PostgreSQL
+- 🚀 Passionate about building reliable, end-to-end web applications
+- 🌱 Currently learning Docker, AWS and System Design
+- 📍 Bengaluru, India
+- 💼 Open to Full Stack Developer & Software Engineer opportunities
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
@@ -76,6 +72,7 @@ I'm a Full-Stack Developer specializing in **React.js, Next.js, Node.js, and Mon
 <td width="50%" valign="top">
 
 **🧭 [Yatrik — AI Travel Planner](https://github.com/Thippeswamykr1204/Yatrick)**
+
 `Next.js 15` `TypeScript` `Gemini API` `MongoDB Atlas`
 
 Full-stack AI travel planner — 6-screen user flow, 5 Gemini-powered endpoints including **Smart Day Regeneration** (rebuild a single itinerary day in isolation). All routes secured with JWT + bcrypt + ownership-based authorization.
@@ -86,6 +83,7 @@ Full-stack AI travel planner — 6-screen user flow, 5 Gemini-powered endpoints 
 <td width="50%" valign="top">
 
 **💰 [FinSight — Finance Tracker](https://github.com/Thippeswamykr1204/FinSight)**
+
 `Next.js 14` `Prisma` `PostgreSQL` `Redis`
 
 Dashboard-driven finance app — 9 REST endpoints, composite-key duplicate detection on CSV ingest, and a **3-tier Redis TTL cache** that degrades gracefully under outages.
@@ -98,6 +96,7 @@ Dashboard-driven finance app — 9 REST endpoints, composite-key duplicate detec
 <td width="50%" valign="top">
 
 **🏥 [PulseQ — Real-Time Queue System](https://github.com/Thippeswamykr1204/PluseQ)**
+
 `MERN` `Socket.io` `JWT` `Jest`
 
 Real-time hospital queue manager — 18 REST endpoints, **Socket.io room-based events** for live token updates, race-condition-safe atomic MongoDB operations, validated by a 21-test Jest/Supertest suite.
@@ -108,6 +107,7 @@ Real-time hospital queue manager — 18 REST endpoints, **Socket.io room-based e
 <td width="50%" valign="top">
 
 **📊 [ImportCSV Pro — AI CSV Importer](https://github.com/Thippeswamykr1204/ImportCSV-Pro)**
+
 `Next.js` `Zod` `Gemini API` `SSE`
 
 Enterprise CSV importer mapping 5 CRM/ad platforms into a fixed schema — JSON repair pipeline, exponential-backoff retries, 4-way parallel batching, validated by a 63-test Vitest suite.
@@ -120,8 +120,12 @@ Enterprise CSV importer mapping 5 CRM/ad platforms into a fixed schema — JSON 
 
 ### 💼 Experience
 
-**Full-Stack Web Development Intern** · SuprMentr Technologies Pvt Ltd · *Feb 2026 – May 2026*
-Shipped responsive full-stack features in sprint-based Agile cycles; owned end-to-end development of FinSight from schema design through deployment.
+**Full-Stack Web Development Intern** · SuprMentr Technologies Pvt Ltd
+*Feb 2026 – May 2026*
+
+- Owned end-to-end development of FinSight — from schema design to production deployment
+- Shipped responsive full-stack features in sprint-based Agile cycles
+- Collaborated with cross-functional teams to ship production-ready code on schedule
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
@@ -133,7 +137,7 @@ Shipped responsive full-stack features in sprint-based Agile cycles; owned end-t
 </div>
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=thippeswamykr1204&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com/?user=thippeswamykr1204&theme=tokyonight&hide_border=true" />
 </div>
 
 <!-- 🐍 Contribution snake — auto-generated by .github/workflows/snake.yml, updates daily, unique & self-owned -->
@@ -146,7 +150,8 @@ Shipped responsive full-stack features in sprint-based Agile cycles; owned end-t
 ### 🎓 Education
 
 **B.E. — Artificial Intelligence & Machine Learning**
-Sri Sairam College of Engineering, Anekal (VTU) · CGPA 7.81/10 · 2022–2026
+Sri Sairam College of Engineering, Anekal (VTU)
+CGPA 7.81/10 · 2022 – 2026
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
@@ -158,7 +163,9 @@ Sri Sairam College of Engineering, Anekal (VTU) · CGPA 7.81/10 · 2022–2026
 <a href="https://linkedin.com/in/thippeswamy-kr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://thippeswamykr1204.github.io/Portfolio"><img src="https://img.shields.io/badge/Portfolio-00c6ff?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 
-<br/><br/>
-<img src="./assets/banner.svg" width="100%"/>
+<br/>
+<img src="./assets/banner.png" width="100%" height="90" style="object-fit:cover;"/>
+
+<sub>Thanks for stopping by — let's build something great 🚀</sub>
 
 </div>
