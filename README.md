@@ -164,7 +164,7 @@ CGPA 7.81/10 · 2022 – 2026
 <a href="https://thippeswamykr1204.github.io/Portfolio"><img src="https://img.shields.io/badge/Portfolio-00c6ff?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 
 <br/>
-<img src="./assets/banner.png" width="100%" height="90" style="object-fit:cover;"/>
+<img src="./assets/banner.svg" width="100%" height="90" style="object-fit:cover;"/>
 
 <sub>Thanks for stopping by — let's build something great 🚀</sub>
 
