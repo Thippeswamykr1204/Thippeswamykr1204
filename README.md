@@ -162,10 +162,3 @@ CGPA 7.81/10 · 2022 – 2026
 <a href="mailto:kollithippeswamy1204@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://linkedin.com/in/thippeswamy-kr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://thippeswamykr1204.github.io/Portfolio"><img src="https://img.shields.io/badge/Portfolio-00c6ff?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-
-<br/>
-<img src="./assets/banner.svg" width="100%" height="90" style="object-fit:cover;"/>
-
-<sub>Thanks for stopping by — let's build something great 🚀</sub>
-
-</div>
