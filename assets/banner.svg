@@ -9,6 +9,10 @@
       <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="glow2" cx="85%" cy="85%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0"/>
       <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.9"/>
@@ -18,12 +22,52 @@
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="100%" stop-color="#dbeafe"/>
     </linearGradient>
-    <clipPath id="round"><rect width="1200" height="300" rx="18"/></clipPath>
+
+    <!-- animated conic-style border gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="25%" stop-color="#60a5fa"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="75%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+      <animateTransform attributeName="gradientTransform" type="rotate"
+        from="0 0.5 0.5" to="360 0.5 0.5" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="round"><rect x="2" y="2" width="1196" height="296" rx="18"/></clipPath>
   </defs>
+
+  <!-- animated glowing border -->
+  <rect x="1" y="1" width="1198" height="298" rx="19" fill="none"
+        stroke="url(#borderGrad)" stroke-width="2" opacity="0.9"/>
+  <rect x="1" y="1" width="1198" height="298" rx="19" fill="none"
+        stroke="#3b82f6" stroke-width="4" opacity="0.15" filter="blur(2px)">
+    <animate attributeName="opacity" values="0.08;0.25;0.08" dur="3s" repeatCount="indefinite"/>
+  </rect>
 
   <g clip-path="url(#round)">
     <rect width="1200" height="300" fill="url(#bg)"/>
     <rect width="1200" height="300" fill="url(#glow)"/>
+    <rect width="1200" height="300" fill="url(#glow2)"/>
+
+    <!-- diagonal sheen sweep -->
+    <rect x="-400" y="0" width="300" height="300" fill="url(#sheen)" transform="skewX(-20)">
+      <animate attributeName="x" values="-400;1400" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- subtle grid dots -->
+    <g opacity="0.12">
+      <circle cx="60" cy="40" r="1.2" fill="#60a5fa"/>
+      <circle cx="140" cy="60" r="1.2" fill="#60a5fa"/>
+      <circle cx="1000" cy="40" r="1.2" fill="#60a5fa"/>
+      <circle cx="1080" cy="70" r="1.2" fill="#60a5fa"/>
+    </g>
 
     <!-- animated flowing wave lines, bottom-right -->
     <g stroke-width="1.4" fill="none" opacity="0.75">
@@ -59,31 +103,45 @@
       </path>
     </g>
 
-    <!-- soft pulsing dot along one line -->
+    <!-- pulsing dots traveling along lines -->
     <circle r="3" fill="#60a5fa">
       <animateMotion dur="6s" repeatCount="indefinite"
         path="M650,260 C820,180 950,240 1080,150 C1150,105 1180,120 1220,90"/>
       <animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/>
     </circle>
+    <circle r="2.5" fill="#a855f7">
+      <animateMotion dur="8s" repeatCount="indefinite" begin="1.5s"
+        path="M700,290 C880,225 990,270 1100,200 C1160,160 1185,165 1220,145"/>
+      <animate attributeName="opacity" values="0;1;0" dur="8s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
 
-    <!-- text block -->
-    <text x="80" y="150" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="900" letter-spacing="2" fill="url(#nameGrad)">
-      THIPPESWAMY <tspan fill="#2563eb">K R</tspan>
-    </text>
+    <!-- text block, fades/rises in on load -->
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,14; 0,0" dur="1s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+      <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
 
-    <line x1="80" y1="178" x2="620" y2="178" stroke="#2563eb" stroke-width="2" opacity="0.8">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
-    </line>
+      <text x="80" y="150" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="900" letter-spacing="2" fill="url(#nameGrad)">
+        THIPPESWAMY <tspan fill="#2563eb">K R</tspan>
+      </text>
 
-    <text x="80" y="215" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="6" fill="#cbd5e1">
-      FULL STACK DEVELOPER
-    </text>
+      <line x1="80" y1="178" x2="620" y2="178" stroke="#2563eb" stroke-width="2" opacity="0.8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+      </line>
+      <circle cx="80" cy="178" r="3" fill="#60a5fa">
+        <animateMotion dur="3s" repeatCount="indefinite" path="M0,0 L540,0 L0,0"/>
+      </circle>
 
-    <text x="80" y="255" font-family="Consolas, monospace" font-size="17" fill="#93c5fd">
-      &lt;/&gt;
-    </text>
-    <text x="115" y="255" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#e2e8f0">
-      Code. Build. Deploy. <tspan fill="#3b82f6">Repeat.</tspan>
-    </text>
+      <text x="80" y="215" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="6" fill="#cbd5e1">
+        FULL STACK DEVELOPER
+      </text>
+
+      <text x="80" y="255" font-family="Consolas, monospace" font-size="17" fill="#93c5fd">
+        &lt;/&gt;
+      </text>
+      <text x="115" y="255" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#e2e8f0">
+        Code. Build. Deploy. <tspan fill="#3b82f6">Repeat.</tspan>
+      </text>
+    </g>
   </g>
 </svg>
