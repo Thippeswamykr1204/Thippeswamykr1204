@@ -2,8 +2,6 @@
 
 <img src="./assets/banner.svg" width="100%"/>
 
-<br/>
-
 <a href="https://thippeswamykr1204.github.io/Portfolio">
   <img src="https://img.shields.io/badge/PORTFOLIO-Visit-00c6ff?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
